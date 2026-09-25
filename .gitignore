@@ -1,0 +1,25 @@
+# Environment variables (SECRETS)
+.env
+.env.local
+litellm_config.yaml
+
+# Python virtual environment & bytecode
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and runtime artifacts
+*.log
+proxy.log
+intercepted_request.txt
+req_*.txt
+test_opencode.jsonc
+
+# Local repos & editor files
+qip_repo/
+.DS_Store
+.vscode/
+.idea/
